@@ -21,28 +21,28 @@ var mongoose = require('mongoose')
 const port = process.env.PORT || 2000;
 
 app.use(express.static('./dist/Frontend'));
-app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist//Frontend/index.html'));});
+
   
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(session({ secret: 'ssshhhhh', resave: true, saveUninitialized: true }));
-//app.use(express.static('./public'));
+app.use(express.static('./public'));
 app.use('/uploads', express.static('uploads'))
 
 
 app.set('views', './src/views');
 app.use(methodoverride('_method'));
-app.use('api/books', booksRouter);
-app.use('api/login', loginRouter);
-app.use('api/signup', signupRouter);
-app.use('api/addbook', adminRouter);
-app.use('api/addauthor', admin1Router);
-app.use('api/authors', authorRouter);
+app.use('/books', booksRouter);
+app.use('/login', loginRouter);
+app.use('/signup', signupRouter);
+app.use('/addbook', adminRouter);
+app.use('/addauthor', admin1Router);
+app.use('/authors', authorRouter);
 
-
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname + '/dist//Frontend/index.html'));});
 
 
 app.listen(port , ()=> {
