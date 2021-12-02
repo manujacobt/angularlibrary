@@ -40,6 +40,6 @@ adminRouter.post('/add', cpUpload, async (req, res) => {
     trans: req.body.trans
   };
   await Bookdata.create(item);
-  res.redirect('/books');
+  res.redirect('/api/books');
 });
 module.exports = adminRouter;
