@@ -37,8 +37,8 @@ app.use(methodoverride('_method'));
 app.use('/api/books', booksRouter);
 app.use('/api/login', loginRouter);
 app.use('/api/signup', signupRouter);
-app.use('/api/addbook', adminRouter);
-app.use('/api/addauthor', admin1Router);
+app.use('/addbook', adminRouter);
+app.use('/addauthor', admin1Router);
 app.use('/api/authors', authorRouter);
 
 app.get('/*', function(req, res) {
