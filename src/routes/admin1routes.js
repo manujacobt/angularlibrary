@@ -23,16 +23,7 @@ const cpUpload = upload.fields([
 ]);
 /* multer end */
 
-admin1Router.get('/',function(req,res){
-    res.render('addauthor',{
-        nav:[{link:'/books',name:'Books'},
-        {link:'/authors',name:'Authours'},
-        {link:'/admin',name:'Add Book'},
-        {link:'/admin1',name:'Add Author'},
-        {link:'/',name:'Log Out'}],
-        title:'Library'        
-    })
-});
+
 
 /* check cpUpload */
 admin1Router.post('/add', cpUpload, async (req, res) => {
