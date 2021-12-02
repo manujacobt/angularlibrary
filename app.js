@@ -35,7 +35,7 @@ app.use('/uploads', express.static('uploads'))
 app.set('views', './src/views');
 app.use(methodoverride('_method'));
 app.use('/books', booksRouter);
-app.use('/login', loginRouter);
+app.use('/api/login', loginRouter);
 app.use('/signup', signupRouter);
 app.use('/addbook', adminRouter);
 app.use('/addauthor', admin1Router);
