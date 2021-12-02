@@ -1,0 +1,76 @@
+.newform{
+  position: relative;
+  top:5vh;
+}
+#pwd{
+  position: relative;
+  top:3vh;
+}
+.loginerror{
+  color: red;
+  
+}
+
+
+
+.navbar-nav{
+    margin-left: 2%;
+    padding: 4px;
+}
+
+
+
+  .mail1{
+    position:relative;
+    text-align: left;
+    
+       /* left:50%; */
+    border-radius: 5px;
+    /* transform:translate(-50%,-50%); */
+    width:350px;
+    background:white;
+    padding:20px;
+    padding-bottom: 30px;
+    /* box-shadow:0px 0px 20px 5px rgba(0,0,0,0.05); */
+  }
+
+  
+  .form-label{
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+
+  
+ 
+  #p1{
+    position: relative;
+   top:1vh;
+   width: 350px;
+   text-align: center;
+   color:white;
+   padding: 1px;
+   border-radius: 6px;  
+   
+   margin-right: auto;
+   margin-left: auto;
+   
+  }
+
+ 
+
+
+  #but{
+    position:relative;
+    top:3vh;
+       /* left:50%; */
+    /* transform:translate(-50%,-50%); */
+    width:350px;
+    background:blue;
+    padding:10px;
+    box-shadow:0px 0px 20px 5px rgba(0,0,0,0.05);
+
+  }
+
+
+  
