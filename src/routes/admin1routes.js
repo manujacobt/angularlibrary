@@ -37,7 +37,7 @@ admin1Router.post('/add', cpUpload, async (req, res) => {
       
     };
     await authordata.create(item);
-    res.redirect('/authors');
+    res.redirect('/api/authors');
   });
 
 module.exports = admin1Router;
