@@ -87,7 +87,7 @@ class AuthorComponent {
     }
 }
 AuthorComponent.ɵfac = function AuthorComponent_Factory(t) { return new (t || AuthorComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_author_service__WEBPACK_IMPORTED_MODULE_2__["AuthorService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
-AuthorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AuthorComponent, selectors: [["app-author"]], decls: 36, vars: 15, consts: [[1, "card"], [1, "card-header"], [1, "card-body"], [1, "table-responsive"], [1, "table"], [3, "src", "title"], [2, "font-weight", "bold", "color", "white", "background-color", "red"], [1, "table", 2, "color", "red"], [2, "font-weight", "bold", "background-color", "green", "color", "white"], [1, "table", 2, "font-weight", "bold"], [3, "href", 4, "ngIf"], [3, "action", "ngSubmit", 4, "ngIf"], [3, "href"], [2, "background-color", "green", "color", "white"], [3, "action", "ngSubmit"], [2, "background-color", "red", "color", "white"]], template: function AuthorComponent_Template(rf, ctx) { if (rf & 1) {
+AuthorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AuthorComponent, selectors: [["app-author"]], decls: 36, vars: 14, consts: [[1, "card"], [1, "card-header"], [1, "card-body"], [1, "table-responsive"], [1, "table"], [3, "src", "title"], [2, "font-weight", "bold", "color", "white", "background-color", "red"], [1, "table", 2, "color", "red"], [2, "font-weight", "bold", "background-color", "green", "color", "white"], [1, "table", 2, "font-weight", "bold"], [3, "href", 4, "ngIf"], [3, "action", "ngSubmit", 4, "ngIf"], [3, "href"], [2, "background-color", "green", "color", "white"], [3, "action", "ngSubmit"], [2, "background-color", "red", "color", "white"]], template: function AuthorComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -154,7 +154,7 @@ AuthorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.pageTitle, " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("width", ctx.imageWidth, "px")("margin", ctx.imageMargin, "px");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate2"]("src", "", ctx.authorservice.api, "/", ctx.author.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "/", ctx.author.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", ctx.author.name);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Name : ", ctx.author.name, "");
@@ -1030,7 +1030,7 @@ class BookComponent {
     }
 }
 BookComponent.ɵfac = function BookComponent_Factory(t) { return new (t || BookComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_books_service__WEBPACK_IMPORTED_MODULE_2__["BooksService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"])); };
-BookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BookComponent, selectors: [["app-book"]], decls: 38, vars: 16, consts: [[1, "card"], [1, "card-header"], [1, "card-body"], [1, "table-responsive"], [1, "table"], [3, "src", "title"], [2, "font-weight", "bold", "color", "white", "background-color", "red"], [1, "table", 2, "color", "red"], [2, "font-weight", "bold", "background-color", "green", "color", "white"], [1, "table", 2, "font-weight", "bold"], [3, "href", 4, "ngIf"], [3, "action", "ngSubmit", 4, "ngIf"], [3, "href"], [2, "background-color", "green", "color", "white"], [3, "action", "ngSubmit"], [2, "background-color", "red", "color", "white"]], template: function BookComponent_Template(rf, ctx) { if (rf & 1) {
+BookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BookComponent, selectors: [["app-book"]], decls: 38, vars: 15, consts: [[1, "card"], [1, "card-header"], [1, "card-body"], [1, "table-responsive"], [1, "table"], [3, "src", "title"], [2, "font-weight", "bold", "color", "white", "background-color", "red"], [1, "table", 2, "color", "red"], [2, "font-weight", "bold", "background-color", "green", "color", "white"], [1, "table", 2, "font-weight", "bold"], [3, "href", 4, "ngIf"], [3, "action", "ngSubmit", 4, "ngIf"], [3, "href"], [2, "background-color", "green", "color", "white"], [3, "action", "ngSubmit"], [2, "background-color", "red", "color", "white"]], template: function BookComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -1100,7 +1100,7 @@ BookComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.pageTitle, " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("width", ctx.imageWidth, "px")("margin", ctx.imageMargin, "px");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate2"]("src", "/", ctx.booksservice.api, "/", ctx.book.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "/", ctx.book.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", ctx.book.title);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Title : ", ctx.book.title, "");
