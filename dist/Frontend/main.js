@@ -229,7 +229,7 @@ class NewauthorComponent {
         this.authorService.newauthor(this.fd)
             .subscribe(data => {
             console.log(data);
-            this.router.navigate(['/authors']);
+            this.router.navigate(['authors']);
         });
     }
 }
@@ -1539,7 +1539,7 @@ class NewbookComponent {
         this.bookService.newbook(this.fd)
             .subscribe(data => {
             console.log(data);
-            this.router.navigate(['/books']);
+            this.router.navigate(['books']);
         });
     }
 }
